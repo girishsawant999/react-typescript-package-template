@@ -2,7 +2,7 @@
   "name": "@girishsawant999/library-name",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "setup": "npm install && cd example && npm install",
     "build:dev": "webpack",
@@ -79,8 +79,5 @@
     "*.jsx?": [
       "eslint  --fix-dry-run"
     ]
-  },
-  "dependencies": {
-    "prop-types": "^15.7.2"
   }
 }
