@@ -13,8 +13,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/girishsawant999/react-package-template.svg)](https://github.com/girishsawant999/react-package-template/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/girishsawant999/react-package-template.svg)](https://github.com/girishsawant999/react-package-template/pulls)
 
-[![Build ](https://img.shields.io/github/workflow/status/girishsawant999/react-package-template/CI/main)](#)
-[![Downloads ](https://img.shields.io/github/downloads/girishsawant999/react-package-template/total)](#)
+[![Build ](https://img.shields.io/github/workflow/status/girishsawant999/react-package-template/CI/main)](https://github.com/girishsawant999/react-package-template/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
