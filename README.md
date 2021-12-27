@@ -5,8 +5,6 @@
 
 <h2 align="center">React Package Template</h2>
 
----
-
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)](#)
