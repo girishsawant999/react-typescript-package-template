@@ -11,7 +11,7 @@
     "build:dev": "webpack",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --coverage",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --coverage --watch",
     "lint": "cross-env eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
     "prettier": "cross-env prettier 'src/**/*.{js,jsx,ts,tsx,json,md,css,scss,sass,html}' --write",
     "setup": "npm install && cd example && npm install",
