@@ -2,7 +2,11 @@ import React from 'react';
 import './style.scss';
 
 const MainComp = () => {
-  return <div className="red-div">Hello World</div>;
+  return (
+    <div>
+      <h2>Welcome To react loading button</h2>
+    </div>
+  );
 };
 
 export default MainComp;

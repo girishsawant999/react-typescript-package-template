@@ -6,7 +6,6 @@ import Thing from '../dist';
 const App = () => {
   return (
     <div>
-      Test
       <Thing />
     </div>
   );
