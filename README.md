@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img height=200px src="https://repository-images.githubusercontent.com/440238977/c1bb2b56-2418-44b4-90b7-e68450db4ee7" alt="Project logo"></a>
+ <img height=200px src="./.github/readme/intro.png" alt="Project logo"></a>
 </p>
 
 <h2 align="center">React Package Template</h2>
@@ -8,17 +8,17 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)](#)
-[![GitHub Issues](https://img.shields.io/github/issues/girishsawant999/react-package-template.svg)](https://github.com/girishsawant999/react-package-template/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/girishsawant999/react-package-template.svg)](https://github.com/girishsawant999/react-package-template/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/girishsawant999/react-typescript-package-template.svg)](https://github.com/girishsawant999/react-typescript-package-template/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/girishsawant999/react-typescript-package-template.svg)](https://github.com/girishsawant999/react-typescript-package-template/pulls)
 
-[![Build ](https://img.shields.io/github/workflow/status/girishsawant999/react-package-template/CI/main)](https://github.com/girishsawant999/react-package-template/actions)
+[![Build ](https://img.shields.io/github/workflow/status/girishsawant999/react-typescript-package-template/CI/main)](https://github.com/girishsawant999/react-typescript-package-template/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
 
-<p align="center"> A template code repo for creating react component or JS <a href="https://www.npmjs.com" rel="noopener">npm packages</a>. Just follow few steps and you can start publishing your code on npm.
+<p align="center"> A template code repo for creating typescript based react component or typescript based modules to publish over <a href="https://www.npmjs.com" rel="noopener">npm</a>. Just follow few steps and you can start publishing your code on npm.
     <br> 
 </p>
 
@@ -26,15 +26,14 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
+- [Publish](#publish)
 - [Built Using](#built_using)
 - [Contributing](./.github/CONTRIBUTING.md)
 - [Authors](#authors)
 
 ## 🧐 About <a name = "about"></a>
 
-So repo consist of boilerplate code to create a npm package without doing creating any new projet.
+A template code for creating typescript based react component or modules. Bundled with configuration for jest, eslint, prettier, and husky pre-commit hook.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -48,7 +47,7 @@ As you already know about JS, you better know the prerequisites, Node JS and NPM
 
 A step by step series of examples that tell you how to get a clone and complete setup.
 
-<a href="https://github.com/girishsawant999/react-package-template/generate">Click here</a> to use this template to create a new repo for package.
+<a href="https://github.com/girishsawant999/react-typescript-package-template/generate">Click here</a> to use this template to create a new repo for package.
 
 Then once repo is created clone it. Now run following commands in project directory.
 
@@ -66,7 +65,7 @@ now your production build is ready.
 
 ### Testing component package
 
-You can test this build. Update example/index.jsx import your component or module. and run following command in **example** directory
+You can test this build. Update demo/index.jsx import your component or module from dist directory and run following command in **demo** directory
 
 ```
 npm run start
@@ -84,7 +83,7 @@ Write test cases in src/\_\_tests\_\_ directory and run following command
 npm run test
 ```
 
-## 🚀 Deployment & Publish to npm<a name = "deployment"></a>
+## 🚀 Publish to npm<a name = "publish"></a>
 
 You have tested your package now you can publish it to npm using following steps.
 
@@ -105,11 +104,13 @@ you will get message your package has been succesfully deployed to npm.
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [React](https://reactjs.org)
-- [Webpack](https://webpack.js.org)
+- [Parcel](https://parceljs.org)
+- [Typescript](https://www.typescriptlang.org)
 - [Javascript](https://developer.mozilla.org/en-US/)
+- [Jest](https://jestjs.io)
 
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@girishsawant999](https://github.com/girishsawant999) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/girishsawant999/react-package-template/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/girishsawant999/react-typescript-package-template/contributors) who participated in this project.
