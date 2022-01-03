@@ -90,7 +90,7 @@
   },
   "size-limit": [
     {
-      "path": "./dist/index.js",
+      "path": "./dist/*",
       "limit": "500 ms",
       "webpack": false
     }
