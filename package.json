@@ -44,6 +44,9 @@
     "@parcel/packager-ts": "^2.0.1",
     "@parcel/transformer-sass": "^2.0.1",
     "@parcel/transformer-typescript-types": "^2.0.1",
+    "@size-limit/preset-app": "^7.0.5",
+    "@size-limit/preset-big-lib": "^7.0.5",
+    "@size-limit/preset-small-lib": "^7.0.5",
     "@testing-library/jest-dom": "^5.16.1",
     "@types/jest": "^27.4.0",
     "@types/react": "^17.0.38",
@@ -67,6 +70,7 @@
     "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "size-limit": "^7.0.5",
     "ts-jest": "^27.1.2",
     "typescript": "^4.5.4"
   },
