@@ -7,7 +7,7 @@ export interface ITestprops {
 const Test: React.FC<ITestprops> = (props: ITestprops) => {
   return (
     <div>
-      <h1>Hello Lazy Component{props.name}</h1>
+      <h1>{props.name}</h1>
     </div>
   );
 };

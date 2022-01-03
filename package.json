@@ -55,6 +55,7 @@
     "@types/react-dom": "^17.0.11",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
+    "autoprefixer": "^10.4.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
@@ -94,5 +95,10 @@
       "limit": "500 ms",
       "webpack": false
     }
+  ],
+  "browserslist": [
+    "> 0.2%",
+    "last 2 versions",
+    "not ie < 10"
   ]
 }

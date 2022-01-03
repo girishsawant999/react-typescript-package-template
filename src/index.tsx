@@ -10,9 +10,8 @@ interface IProps {
 const Test = (props: IProps): JSX.Element => {
   return (
     <div>
-      {props.name}
       <Suspense fallback={<div>Loading...</div>}>
-        <Comp name="Lazy Component" />
+        <Comp name={props.name} />
       </Suspense>
     </div>
   );

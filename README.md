@@ -37,69 +37,84 @@ A template code for creating typescript based react component or modules. Bundle
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [publish](#deployment) notes on how to publish the package on npm.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [publish](#publish) notes on how to publish the package on npm.
 
 ### Prerequisites
 
 As you already know about JS, you better know the prerequisites, Node JS and NPM.
 
-### Cloning & Setup
+### Setup & Installation
 
-A step by step series of examples that tell you how to get a clone and complete setup.
+Let's start with the following steps.
 
-<a href="https://github.com/girishsawant999/react-typescript-package-template/generate">Click here</a> to use this template to create a new repo for package.
+- Now <a href="https://github.com/girishsawant999/react-typescript-package-template/generate">click here</a> to use this template to create a new repo for package.
 
-Then once repo is created clone it. Now run following commands in project directory.
+- Once repo is created clone it into your local machine.
 
-```
-npm run setup
-```
+- Now run the following code in project directory to install dependencies.
 
-thats all you are ready to create new react component package or js module. Just update the src/index.jsx and run command
+  ```
+    npm run setup
+  ```
 
-```
-npm run build
-```
+- Thats all you are ready to create new typescript based react component package or TS module. Just update the **_*src/index.tsx*_**.
 
-now your production build is ready.
+### Build Package
 
-### Testing component package
+Follow to step to create a build.
 
-You can test this build. Update demo/index.jsx import your component or module from dist directory and run following command in **demo** directory
+- Once you updated the **_src/index.tsx_** and created react component or typescript module.
 
-```
-npm run start
-```
+- Then the following command in projet directory.
 
-browser window will open with your component or module rendered. you can test it now.
+  ```
+    npm run build
+  ```
+
+- Once the command output is completed you will get a **_dist_** folder with index.js and index.d.ts files.
+
+- Thats all you are ready to publish your package on npm.
+
+### Testing
+
+can test your package in the following way.
+
+- You can import your component from dist folder in your **_*demo/index.tsx*_** file.
+
+- Then in **_*demo/index.tsx*_** you can pass specific props for the component. Now run following command in **_demo_** directory
+
+  ```
+    npm run start
+  ```
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
 Following step are used to run test cases created for component or module.
 
-Write test cases in src/\_\_tests\_\_ directory and run following command
+- As Jest framework is installed in your package.json. So add test files in **\_\_\_test\_\_\_** folder.
 
-```
-npm run test
-```
+- Then run command to execute test cases.
+  ```
+    npm run test
+  ```
 
 ## 🚀 Publish to npm<a name = "publish"></a>
 
-You have tested your package now you can publish it to npm using following steps.
+You have tested your package and ready to publish to NPM. Follow the steps.
 
-Login to npm.
+- Once the build is created successfully & tested.
 
-```
-npm login
-```
+- Update package.json file with your package name and version and other details.
 
-Update the version and specific props as per your package in package.json. Now run command
+- Now run the following command in project directory to login with your npm account.
+  ```
+    npm run login
+  ```
+- Now run the following command to publish your package on npm.
 
-```
-npm publish
-```
-
-you will get message your package has been succesfully deployed to npm.
+  ```
+    npm run publish
+  ```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -111,6 +126,6 @@ you will get message your package has been succesfully deployed to npm.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@girishsawant999](https://github.com/girishsawant999) - Idea & Initial work
+- [@girishsawant999](https://girishsawant999.github.io) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/girishsawant999/react-typescript-package-template/contributors) who participated in this project.
