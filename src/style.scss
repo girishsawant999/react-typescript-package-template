@@ -1,21 +1,3 @@
-$primary-color: #00bcd4;
-
-body {
-  background-color: whitesmoke;
-  min-height: 100vh;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 div {
-  color: white;
-  background-color: $primary-color;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  h2 {
-    text-align: center;
-  }
+  background-color: aqua;
 }
