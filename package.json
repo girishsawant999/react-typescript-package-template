@@ -85,5 +85,12 @@
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix"
     ]
-  }
+  },
+  "size-limit": [
+    {
+      "path": "./dist/*",
+      "import": "{ createStore }",
+      "limit": "500 ms"
+    }
+  ]
 }
