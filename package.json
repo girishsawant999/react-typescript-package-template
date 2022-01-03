@@ -91,7 +91,6 @@
   "size-limit": [
     {
       "path": "./dist/index.js",
-      "import": "{ createStore }",
       "limit": "500 ms",
       "webpack": false
     }
