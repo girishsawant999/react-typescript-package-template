@@ -22,7 +22,7 @@
     "lint": "cross-env eslint './**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "cross-env eslint './**/*.{js,jsx,ts,tsx}' --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json,html,scss,sass}' --config ./.prettierrc --ignore-path ./.gitignore",
-    "setup": "npm install && cd demo && npm install",
+    "setup": "npm install && husky install && cd demo && npm install",
     "setup:update": "ncu -u && cd demo && ncu -u && cd .. && npm run setup"
   },
   "repository": {
