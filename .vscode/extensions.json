@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "coenraads.bracket-pair-colorizer",
+        "streetsidesoftware.code-spell-checker",
+        "esbenp.prettier-vscode",
+        "plibither8.remove-comments",
+        "PKief.material-icon-theme"
+    ]
+}
