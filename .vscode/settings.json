@@ -3,4 +3,9 @@
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.folders.theme": "classic",
   "workbench.colorTheme": "Monokai",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.format": true
+  }
 }
